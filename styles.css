@@ -1,0 +1,90 @@
+main{
+    background-image: linear-gradient(
+       115deg,
+       rgba(58, 58, 158, 0.5),
+       rgba(136, 136, 206, 0.3)
+     ),
+     url(https://images.unsplash.com/photo-1434725039720-aaad6dd32dfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1642&q=80);
+   background-size:cover;
+   position:fixed;
+   top:0;
+   bottom:0;
+   left:0;
+   right:0;
+   z-index:-1;
+ }
+ 
+ 
+ 
+ h1, h5{
+   color:white;
+   text-align:center;
+   font-family:Verdana;
+   font-weight:100;
+ }
+ h5{
+   font-size: 1.125rem;
+ }
+ 
+ 
+ input, select{
+   border-radius:8px;
+   height:35px;
+ }
+ 
+ 
+ .form{
+   border-radius:10px;
+   font-family:sans-serif;
+   background-color:rgb(50,50,50);
+   color:white;
+   margin:0 auto;;
+  width:800px;
+   minimum-width:400px;
+    opacity:60%;
+ }
+ #submit{
+   display:block;
+   width:100%;
+ height:40px;
+ font-size:1rem;
+   background-color:#009133;
+   border-color:#009133;
+ }
+ .block{
+   display:block;
+ }
+ 
+ fieldset{
+   border:0;
+   padding:2rem;
+ }
+ textarea, input, select{
+   width:100%;
+ }
+ .inline{
+  width:unset;
+ display: inline-block;
+   margin-right: 0.625rem;
+   min-height: 1.25rem;
+   min-width: 1.25rem;
+ }
+ 
+ .feature{
+ width: 100%;
+   display:block
+ }
+ 
+ .improve{
+   width:unset;
+   display:inline-block;
+   color:white;
+   font-weight: 600;
+   border-radius:10px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 

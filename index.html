@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <meta charset="utf-8"> 
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <h1>freeCodeCamp Survey Form</h1>
+    <h5> <em>Thank you for taking the time to help us improve the platform</em></h5>
+  </head>
+  
+  <main>
+    
+  </main>
+<body>
+      <form class="form">
+        
+      <fieldset>
+      <h3 id="name">Name</h3>
+      <input type="text" placeholder="  Enter your name" required> </input>
+      <h3>Email</h3>
+      <input type="text" placeholder="  Enter your Email" required> </input>
+    <h3>Age (optional)</h3>
+  <label> <input placeholder="  Age" type="number" min="13" max="99"/> </label>
+        </fieldset>
+    
+  
+  <fieldset>
+      <label required class="role" placeholder="">Which option best describes your current role?
+        <select>
+        <option disabled select value>Select current role</option>
+          <option value="student">Student</option>
+          <option value="full-time job">Full-time job</option>
+          <option value="full-time learner">Full-time learner</option>
+          <option value="not say">Prefer not to say</option>
+          <option value="other">Other</option>
+          </select>
+    </label>
+  </fieldset>
+  
+  
+  
+    <fieldset class="recommend">
+    <legend> Would you recommend freeCodeCamp to a friend?</legend>
+  <p><label><input checked class="inline" type="radio" name="Definitely-Maybe-Not Sure" value="definitely">Definitely</label></p>
+<p><label><input class="inline" type="radio" name="Definitely-Maybe-Not Sure" value="maybe">Maybe</label></p>
+<p><label><input class="inline" type="radio"name="Definitely-Maybe-Not Sure" value="Not Sure">Not Sure</label></p>
+  </fieldset>
+  
+  
+<fieldset>
+      <p>
+        What is your favorite feature of freeCodeCamp?
+      </p>
+      <select id="most-like" name="mostLike" class="feature"required>
+        <option disabled selected value>Select an option</option>
+        <option value="challenges">Challenges</option>
+        <option value="projects">Projects</option>
+        <option value="community">Community</option>
+        <option value="openSource">Open Source</option>
+      </select>
+    </fieldset>
+  
+  <fieldset class="improve">
+    <legend> What would you like to see improved? (Check all that apply)</legend>
+   <p><label> <input  type="checkbox" name="answers"value="Front-end Projects"> Front-end Projects</label>
+     </label></p>
+    <p><label><input  type="checkbox" name="answers"> Back-end Projects
+</label></p>
+   <p><label> <input  type="checkbox" name="answers"> Data Visualization
+</label></p>
+  <p> <label > <input  type="checkbox" name="answers"> Challenges
+</label>
+  <p> <label > <input  type="checkbox" name="answers"> Open Source Community
+
+</label></p>
+  <p> <label > <input  type="checkbox" name="answers"> Gitter help rooms
+
+</label></p>
+   <p><label > <input  type="checkbox" name="answers"> Videos
+</label></p>
+   <p><label > <input  type="checkbox" name="answers"> City Meetups
+</label></p>
+    <p><label ><input  type="checkbox" name="answers"> Wiki
+      </label></p>
+   <p> <label ><input  type="checkbox" name="answers"> Forum
+     </label></p>
+    <p><label ><input  type="checkbox" name="answers"> Additional Courses
+
+      </label></p>
+     </fieldset>
+
+
+
+
+
+<label> Any comments or suggestions?<textarea placeholder="Enter your comment here..." name="comment" rows="10" cols="50"></textarea></label>
+  
+<label><p><button id="submit" type="submit"> Submit</button></p></label>
+   </div>
+</body>
+      
+    </form>
+</html>
