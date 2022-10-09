@@ -40,7 +40,6 @@ main{
    color:white;
    margin:0 auto;;
   width:800px;
-   minimum-width:400px;
     opacity:60%;
  }
  #submit{
@@ -81,6 +80,9 @@ main{
    color:white;
    font-weight: 600;
    border-radius:10px;
+ }
+ #submit{
+  opacity: 1;
  }
  
  
